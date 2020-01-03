@@ -9,7 +9,7 @@ fetch('https://get-lucky.netlify.com/.netlify/functions/get')
     console.log(number);
     //Displaying lucky number in div "number".
     document.getElementById("number").innerHTML = number;
-
+    //Listing names of my classmates
     if(number == 1){
       document.getElementById("person").innerHTML = "Michał";
     } else if(number == 2){
