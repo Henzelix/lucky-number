@@ -1,5 +1,5 @@
 body{
-    background-color: #808080;
+    background-color: #000000;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -45,5 +45,19 @@ a{
     }
     100% {
       color: #6666ff;
+    }
+  }
+
+  @media  (max-width: 400px) {
+    body{
+      zoom: 0.7; 
+      -moz-transform: scale(0.5); 
+      -moz-transform-origin: 0 0;
+    }
+    #number{
+      margin-top: 25vh;
+    }
+    #person{
+      margin-bottom: 35vh;
     }
   }
