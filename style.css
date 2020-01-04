@@ -1,63 +1,71 @@
-body{
-    background-color: #000000;
-    font-family: 'Nunito', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#number{
-    font-size: 370px;
-    color: white;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 15vh;
-    margin-bottom: -10vh;
-    
+body {
+  background-color: #000000;
+  color: white;
+  font-family: 'Nunito', sans-serif;
 }
 
-#person{
-    animation: colorRotate 4s linear 0s infinite;
-    font-size: 100px;
-    text-align: center;
-    margin-bottom: 20vh;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
 }
 
-h4{
-    text-align: center;
-    color: white;
+.credits {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 3px;
+  text-align: center;
 }
 
-a{
-    text-decoration: none;
-    color: #47c9fc;
+#number {
+  font-size: 15em;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  line-height: 0.8;
+}
+
+#person {
+  animation: colorRotate 4s linear 0s infinite;
+  font-size: 7em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #47c9fc;
 }
 
 @keyframes colorRotate {
-    from {
-      color: #6666ff;
-    }
-    10% {
-      color: #0099ff;
-    }
-    50% {
-      color: #00ff00;
-    }
-    75% {
-      color: #ff3399;
-    }
-    100% {
-      color: #6666ff;
-    }
+  from {
+    color: #6666ff;
   }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
 
-  @media  (max-width: 400px) {
-    body{
-      zoom: 0.7; 
-      -moz-transform: scale(0.5); 
-      -moz-transform-origin: 0 0;
-    }
-    #number{
-      margin-top: 25vh;
-    }
-    #person{
-      margin-bottom: 35vh;
-    }
+@media (max-width: 720px) {
+  body {
+    font-size: 0.8em;
   }
+}
