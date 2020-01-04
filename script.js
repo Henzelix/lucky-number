@@ -1,5 +1,5 @@
 const people = [
-  "Ernest coś zepsuł", // Edge case, when the API will return 0 (no lucky number this day)
+  "Alan coś zepsuł", // Edge case, when the API will return 0 (no lucky number this day)
   "Michał",
   "Aurelia",
   "Mateusz",
