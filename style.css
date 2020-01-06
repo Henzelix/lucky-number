@@ -48,7 +48,7 @@ a{
     }
   }
 
-  @media  (max-width: 400px) {
+  @media  (max-width: 500px) {
     body{
       zoom: 0.7; 
       -moz-transform: scale(0.7); 
