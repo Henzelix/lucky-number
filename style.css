@@ -51,13 +51,13 @@ a{
   @media  (max-width: 400px) {
     body{
       zoom: 0.7; 
-      -moz-transform: scale(0.5); 
+      -moz-transform: scale(0.7); 
       -moz-transform-origin: 0 0;
     }
     #number{
-      margin-top: 25vh;
+      margin-top: 8vh;
     }
     #person{
-      margin-bottom: 35vh;
+      margin-bottom: 18vh;
     }
   }
