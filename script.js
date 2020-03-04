@@ -57,7 +57,7 @@ fetch('https://get-lucky.netlify.com/.netlify/functions/get')
     } else if(number == 23){
       document.getElementById("person").innerHTML = "Wojciech";
     } else if(number == 24){
-      document.getElementById("person").innerHTML = "Adam";
+      document.getElementById("person").innerHTML = "Adaß";
     } else if(number == 25){
       document.getElementById("person").innerHTML = "Bartosz";
     } else if(number == 26){
