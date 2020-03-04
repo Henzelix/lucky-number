@@ -31,7 +31,7 @@ fetch('https://get-lucky.netlify.com/.netlify/functions/get')
     } else if(number == 10){
       document.getElementById("person").innerHTML = "CzarnyJanek";
     } else if(number == 11){
-      document.getElementById("person").innerHTML = "Jendrek";
+      document.getElementById("person").innerHTML = "Jądrek";
     } else if(number == 12){
       document.getElementById("person").innerHTML = "Szymon K.";
     } else if(number == 13){
