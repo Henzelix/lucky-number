@@ -73,6 +73,6 @@ fetch('https://get-lucky.netlify.com/.netlify/functions/get')
     } else if(number > 30){
       document.getElementById("person").innerHTML = "Nie ma nas tylu";
     } else{
-      document.getElementById("person").innerHTML = "Alan coś zepsuł";
+      document.getElementById("person").innerHTML = "#zostańwdomu";
     }
   });
