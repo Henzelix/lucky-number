@@ -31,7 +31,7 @@ fetch('https://get-lucky.netlify.com/.netlify/functions/get')
     } else if(number == 10){
       document.getElementById("person").innerHTML = "CzarnyJanek";
     } else if(number == 11){
-      document.getElementById("person").innerHTML = "Jendrek";
+      document.getElementById("person").innerHTML = "Jądrek";
     } else if(number == 12){
       document.getElementById("person").innerHTML = "Szymon K.";
     } else if(number == 13){
@@ -57,7 +57,7 @@ fetch('https://get-lucky.netlify.com/.netlify/functions/get')
     } else if(number == 23){
       document.getElementById("person").innerHTML = "Wojciech";
     } else if(number == 24){
-      document.getElementById("person").innerHTML = "Adam";
+      document.getElementById("person").innerHTML = "Adaß";
     } else if(number == 25){
       document.getElementById("person").innerHTML = "Bartosz";
     } else if(number == 26){
