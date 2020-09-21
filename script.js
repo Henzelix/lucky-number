@@ -1,11 +1,18 @@
+// if(document.getElementById("number").innerText.length > 3){
+//   document.getElementById("number").style.fontSize = "10vh"
+// }
+// else{
+//   document.getElementById("number").style.fontSize = "50vh"
+// }
+
 //Fetching JSON string from get-lucky.netlify.com to display todays lucky number.
-fetch('https://zsk-poznan.github.io/szczesliwy-numerek-backend/')
+fetch('https://get-lucky.netlify.app/.netlify/functions/get')
   .then((response) => {
     return response.json();
   })
   //Displaying lucky number.
   .then((ok) => {
-    let number = ok.TK;
+    let number = ok.data.luckyNumber;
     console.log(number);
     //Displaying lucky number in div "number".
     document.getElementById("number").innerHTML = number;
@@ -53,24 +60,22 @@ fetch('https://zsk-poznan.github.io/szczesliwy-numerek-backend/')
     } else if(number == 21){
       document.getElementById("person").innerHTML = "Hubcio";
     } else if(number == 22){
-      document.getElementById("person").innerHTML = "Karyna";
-    } else if(number == 23){
       document.getElementById("person").innerHTML = "Wojciech";
-    } else if(number == 24){
+    } else if(number == 23){
       document.getElementById("person").innerHTML = "Adaß";
-    } else if(number == 25){
+    } else if(number == 24){
       document.getElementById("person").innerHTML = "Bartosz";
-    } else if(number == 26){
+    } else if(number == 25){
       document.getElementById("person").innerHTML = "Dawid";
-    } else if(number == 27){
+    } else if(number == 26){
       document.getElementById("person").innerHTML = "Marcin W.";
-    } else if(number == 28){
+    } else if(number == 27){
       document.getElementById("person").innerHTML = "Kamil W.";
-    } else if(number == 29){
+    } else if(number == 28){
       document.getElementById("person").innerHTML = "Ernest";
-    } else if(number == 30){
+    } else if(number == 29){
       document.getElementById("person").innerHTML = "Joanna";
-    } else if(number > 30){
+    } else if(number > 29){
       document.getElementById("person").innerHTML = "Nie ma nas tylu";
     } else{
       document.getElementById("person").innerHTML = "Pobierz Classy";
