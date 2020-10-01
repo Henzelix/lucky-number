@@ -6,13 +6,13 @@
 // }
 
 //Fetching JSON string from get-lucky.netlify.com to display todays lucky number.
-fetch('https://get-lucky.netlify.app/.netlify/functions/get')
+fetch('https://zsk-poznan.github.io/szczesliwy-numerek-backend/')
   .then((response) => {
     return response.json();
   })
   //Displaying lucky number.
   .then((ok) => {
-    let number = ok.data.luckyNumber;
+    let number = ok.TK;
     console.log(number);
     //Displaying lucky number in div "number".
     document.getElementById("number").innerHTML = number;
